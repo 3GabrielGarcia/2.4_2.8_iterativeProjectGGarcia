@@ -8,41 +8,40 @@
 <html lang="en">  
 <head>
     <title>EOTC Week 2025</title><!-- Metadata and title -->
-    <link rel="icon" type="image/x-icon" href="" >
+    <link rel="icon" type="image/x-icon" href="images/TawaLogo.png" >
         <meta charset="utf-8">	
-        <meta name="Keyword" content="EOTC, Tawa, Tawa college, TC, Education Outside of the classroom, Activities"/>
-        <meta name="Author" content="Gabriel Zeaph Garcia"/>
-        <meta name="Description" content="This website is made to inform and advertise the EOTC week happening in 2025"/>
-        <meta name="Viewport" content="Width=Device-width, initial-scale=1"/>
-        <link rel="stylesheet" href="css/style.css">  
+        <meta name="Keyword" content="EOTC, Tawa, Tawa college, TC, Education Outside of the classroom, Activities">
+        <meta name="Author" content="Gabriel Zeaph Garcia">
+        <meta name="Description" content="This website is made to inform and advertise the EOTC week happening in 2025">
+        <meta name="Viewport" content="Width=Device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style_v3.css">   
     </head>
 
 <Body>
     <div class="grid-container">
 	<div class="nav" id="thetop">
 		<div id="burgermenu">
-		<nav role="navigation">	
 			<div id="menuToggle">
-				<input type="checkbox" />
+				<input type="checkbox">
 				<span></span>
 				<span></span>
 				<span></span>
 					<ul id="menu">
-						<div id="navflex">
-						<a href="index_v2.html"><li>Home</li></a> 
-						<a href="page2_v1.html"><li>Community Service</li></a>
-						<a href="page3_v1.html"><li>Outdoor Activities</li></a> 
-						<a href="page4_v1.html"><li>Wainuiomata Camp</li></a>
-						<a href="page5_v1.html"><li>Contact Us</li></a>
-						</div>
+						<li>
+							<ul id="navflex">
+								<li><a href="index_v3.html">Home</a></li>
+								<li><div class="activepage"><a href="page2_v2.html">Community Service</a></div></li>
+								<li><a href="page3_v2.html">Outdoor Activities</a></li>
+								<li><a href="page4_v2.html">Wainuiomata Camp</a></li>
+								<li><a href="page5_v2.html">Contact Us</a></li>
+							</ul>
+						</li>
 					</ul>		
 			</div><!--menutoggle div end -->
-		</nav>
 		</div><!--burger menu div end -->
-		<div id="logo"><img src="images/Asset 1.png" alt="Tawa College and Logo" id="tclogo"></div>
+		<div id="logo"><img src="images/Asset1.png" alt="Tawa College and Logo" id="tclogo"></div>
 	</div> <!--nav div end -->
-		<div class="header">
-			<div class="headerimage"></div>
+		<div class="header" id="communityservice">
 			<div class="headertextbox">
 				<h1 id="headertext">Community service</h1>
 				<p id="subheadertext">Ratonga hapori</p>
@@ -55,9 +54,12 @@
 				</p>
 			</div>
 
-				<div id="importantmeettime"><!-- Timetable Div for the timetable downloads -->
+				<div id="importantmeettime"><!-- this is for showing users what times they should meet -->
 						<div><h1 class="importanttextheader">Important!</h1></div>
-						<div><p class="importanttext">Meeting time and location: <br>The school gym at 9.15am</p></div>
+						<div>
+							<h1 class="textheader">Meeting time and location:</h1>
+							<p class="importanttext">The school gym at 9.15am</p>
+						</div>
 						<img src="images/clockicon.png" alt="Image of a clock" id="clockimg">
 
 				</div>
@@ -68,42 +70,45 @@
 					</div>				
 
 				<!--Image Carousel/slideshow html-->
-					<div>
+					<div class="slideshow">
 						<div class="slideshow-container">
 
 							<div class="mySlides fade">
 							  <div class="numbertext">1 / 3</div>
-								<div class="carouselimg"><img src="images/404Notcreated.jpg" alt="Activity Image"></div>		
+								<div class="carouselimg"><img src="images/communityservice1.JPG" alt="a group of kids cleaning a window"></div>		
 							</div>
 
 							<div class="mySlides fade">
 							  <div class="numbertext">2 / 3</div>
-							  <div class="carouselimg"><img src="images/404Notcreated.jpg" alt="Activity Image"></div>
+							  <div class="carouselimg"><img src="images/communityservice2.JPG" alt="a group of kids clearing weeds"></div>
 							</div>
 
 							<div class="mySlides fade">
 							  <div class="numbertext">3 / 3</div>
-							  <div class="carouselimg"><img src="images/404Notcreated.jpg" alt="Activity Image"></div>		
+							  <div class="carouselimg">
+									  <img src="images/communityservice3.JPG" alt="kids cleaning a car">
+								</div>		
 							</div>
 
 							<a class="prev" onclick="plusSlides(-1)">❮</a>
 							<a class="next" onclick="plusSlides(1)">❯</a>
 							</div>
 							<br>
-							<div style="text-align:center">
+							<div id="dots" style="text-align:center">
 							  <span class="dot" onclick="currentSlide(1)"></span> 
 							  <span class="dot" onclick="currentSlide(2)"></span> 
 							  <span class="dot" onclick="currentSlide(3)"></span> 
 							</div>
 						</div>
-					</div>
+					</div>	<!-- image slideshow div end -->
 				<div class="textcontent">
 				<h1>What to bring</h1>	
 				<p>A day pack with your lunch, water bottle, sun hat, a warm jumper and rain jacket if the weather forecast is bad. It will still go ahead unless there is torrential rain. Please wear appropriate old clothes for potential gardening/painting jobs and closed toed shoes. Bring any medication required.
 				</p></div>			
-				<button onclick="topFunction()" id="myBtn" title="Go to top"><p>To Top</p></button><!--  back to top button -->
-				<script type="text/javascript" src="js/myscript.js"></script>			
-				<a href="#thetop"><button class="totopb"><p>Go back to the top</p></button></a>			
+				<button onclick="topFunction()" id="myBtn" title="Go to top">To Top</button><!--  back to top button -->
+				<script src="js/myscript_v3.js"></script>			
+			
+				<a class="totopb" href="#thetop">Go back to the top</a>			
 			
         </div> <!-- content div ending -->
     
@@ -122,4 +127,4 @@
     </div> <!-- grid contaner div end -->
 
 </Body>
-</html><a href="index.html">
+</html>
