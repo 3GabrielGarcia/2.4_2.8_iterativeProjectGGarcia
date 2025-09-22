@@ -8,41 +8,40 @@
 <html lang="en">  
 <head>
     <title>EOTC Week 2025</title><!-- Metadata and title -->
-    <link rel="icon" type="image/x-icon" href="" >
+    <link rel="icon" type="image/x-icon" href="images/TawaLogo.png" >
         <meta charset="utf-8">	
-        <meta name="Keyword" content="EOTC, Tawa, Tawa college, TC, Education Outside of the classroom, Activities"/>
-        <meta name="Author" content="Gabriel Zeaph Garcia"/>
-        <meta name="Description" content="This website is made to inform and advertise the EOTC week happening in 2025"/>
-        <meta name="Viewport" content="Width=Device-width, initial-scale=1"/>
-        <link rel="stylesheet" href="css/style.css">  
+        <meta name="Keyword" content="EOTC, Tawa, Tawa college, TC, Education Outside of the classroom, Activities">
+        <meta name="Author" content="Gabriel Zeaph Garcia">
+        <meta name="Description" content="This website is made to inform and advertise the EOTC week happening in 2025">
+        <meta name="Viewport" content="Width=Device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style_v3.css">  
     </head>
 
 <Body>
     <div class="grid-container">
 	<div class="nav" id="thetop">
 		<div id="burgermenu">
-		<nav role="navigation">	
 			<div id="menuToggle">
-				<input type="checkbox" />
+				<input type="checkbox">
 				<span></span>
 				<span></span>
 				<span></span>
 					<ul id="menu">
-						<div id="navflex">
-						<a href="index_v2.html"><li>Home</li></a> 
-						<a href="page2_v1.html"><li>Community Service</li></a>
-						<a href="page3_v1.html"><li>Outdoor Activities</li></a> 
-						<a href="page4_v1.html"><li>Wainuiomata Camp</li></a>
-						<a href="page5_v1.html"><li>Contact Us</li></a>
-						</div>
+						<li>
+							<ul id="navflex">
+								<li><a href="index_v3.html">Home</a></li>
+								<li><a href="page2_v2.html">Community Service</a></li>
+								<li><div class="activepage"><a href="page3_v2.html">Outdoor Activities</a></div></li>
+								<li><a href="page4_v2.html">Wainuiomata Camp</a></li>
+								<li><a href="page5_v2.html">Contact Us</a></li>
+							</ul>
+						</li>
 					</ul>		
 			</div><!--menutoggle div end -->
-		</nav>
 		</div><!--burger menu div end -->
-		<div id="logo"><img src="images/Asset 1.png" alt="Tawa College and Logo" id="tclogo"></div>
+		<div id="logo"><img src="images/Asset1.png" alt="Tawa College and Logo" id="tclogo"></div>
 	</div> <!--nav div end -->
-		<div class="header">
-			<div class="headerimage"></div>
+		<div class="header" id="outdooractivity">
 			<div class="headertextbox">
 				<h1 id="headertext">Outdoor Activities</h1>
 				<p id="subheadertext">Nga mahi o waho</p>
@@ -55,7 +54,8 @@
 				<p>
 				A private bus will drop students at the start of the Rangituhi walkway. Teachers will help students navigate the path to the lookout and then up to the summit of Rangituhi. From here students will traverse the tops and then pop down into Te Ngahere o Tawa. Students will spend more time on the walk learning about reading maps, trees and leaves, local places of interest from viewpoints etc. There is also a $50 prezzy card as a prize for activities students can complete on the way.
 				</p>
-				<br>
+			</div>
+			<div class="centertextcontent">
 				<h1>Adrenaline Forest and Te Rauparaha Arena Aquatic Centre</h1>
 				<p>
 				Students will meet at Tawa Train station where the roll will be taken. Please gather with your form class for the roll and if you are running late, you must find a teacher and let them know you have arrived. Students will catch the 8.28am train to Porirua and then walk as a group to Adrenalin Forest. We need to catch this earlier train to ensure we start climbing on time. If Students absolutely cannot make this train (as I realise that it is before the start of school time) there will be one teacher waiting at the train station for any late students and they will catch the 8.48am train. This is an absolute back up and is only an option for those that cannot possibly make it earlier. These students will be late for the start of the climbing and will not get their full 3 hours.
@@ -64,28 +64,21 @@
 			
 			<div id="importantmeettime"><!-- Timetable Div for the timetable downloads -->
 					<div><h1 class="importanttextheader">Important!</h1></div>
-					<div><p class="importanttext">Meeting Time and Location:<br>Tawa Train station at 8.15am <br>under the pedestrian overbridge. </p></div>
+				
+					<div>
+						<h1 class="textheader">Meeting time and location:</h1>
+						<p class="importanttext">Tawa Train station at 8.15am <br>under the pedestrian overbridge. </p>
+					</div>
 					<img src="images/clockicon.png" alt="Image of a clock" id="clockimg">
 			</div>
 			<div class="centertextcontent">
-			<h1>Informational Videos on both activities:</h1>
+			<h1 id="videoheader">Informational Video on the Adrenaline Forest Activity:</h1>
 			</div>
-			<div class="videoflex">
+			
+			<div class="videoflex">	<!-- A video on Adreniline forest -->
 				<div>
-					<video class="video" controls>
-						 <source src="mov_bbb.mp4" type="video/mp4">
-						 <source src="mov_bbb.ogg" type="video/ogg">
-						 Your browser does not support HTML video.
-					</video>
-
-				</div>
-				
-				<div class="video">
-					<video class="video" controls>
-						 <source src="mov_bbb.mp4" type="video/mp4">
-						 <source src="mov_bbb.ogg" type="video/ogg">
-						 Your browser does not support HTML video.
-					</video>
+					<iframe class="video" src="https://www.youtube.com/embed/Td_B9GLL4Mg">
+					</iframe>
 				</div>
 				
 			</div>
@@ -99,7 +92,7 @@ If you indicated on the permission form that Students can leave by themselves di
 The rest of the group will walk back to Porirua station and catch the 2.39pm train back to Tawa Station where they will be dismissed.</p>
 			</div>
 			
-			<div class="imagetrimcenter"><img src="images/404Notcreated.jpg" alt="Activity Image" id="activityimage1"></div>
+			<div class="imagetrimcenter"><img src="images/Adreniline1.jpg" alt="an image of adrenaline forest" class="activityimage"></div>
 			
 			<div class="centertextcontent">
 			<h1>What to bring</h1>
@@ -112,10 +105,10 @@ If your whanau lives in Porirua and Students will meet us at Adrenalin Forest, p
 				
 			</div>
 		
-			<button onclick="topFunction()" id="myBtn" title="Go to top"><p>To Top</p></button><!--  back to top button -->
-			<script type="text/javascript" src="js/myscript.js"></script>			
-			<br>	
-			<a href="#thetop"><button class="totopb"><p>Go back to the top</p></button></a>
+			<button onclick="topFunction()" id="myBtn" title="Go to top">To Top</button><!--  back to top button -->
+			<script src="js/myscript_v3.js"></script>			
+			
+			<a class="totopb" href="#thetop">Go back to the top</a>	
 			
         </div> <!-- content div ending -->
     
@@ -134,4 +127,4 @@ If your whanau lives in Porirua and Students will meet us at Adrenalin Forest, p
     </div> <!-- grid contaner div end -->
 
 </Body>
-</html><a href="index.html">
+</html>
