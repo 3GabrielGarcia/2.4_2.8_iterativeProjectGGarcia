@@ -8,45 +8,45 @@
 <html lang="en">  
 <head>
     <title>EOTC Week 2025</title><!-- Metadata and title -->
-    <link rel="icon" type="image/x-icon" href="" >
+    <link rel="icon" type="image/x-icon" href="images/TawaLogo.png" >
         <meta charset="utf-8">	
-        <meta name="Keyword" content="EOTC, Tawa, Tawa college, TC, Education Outside of the classroom, Activities"/>
-        <meta name="Author" content="Gabriel Zeaph Garcia"/>
-        <meta name="Description" content="This website is made to inform and advertise the EOTC week happening in 2025"/>
-        <meta name="Viewport" content="Width=Device-width, initial-scale=1"/>
-        <link rel="stylesheet" href="css/style_v2.css">  
+        <meta name="Keyword" content="EOTC, Tawa, Tawa college, TC, Education Outside of the classroom, Activities">
+        <meta name="Author" content="Gabriel Zeaph Garcia">
+        <meta name="Description" content="This website is made to inform and advertise the EOTC week happening in 2025">
+        <meta name="Viewport" content="Width=Device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style_v3.css">  
     </head>
 
 <Body>
     <div class="grid-container">
 	<div class="nav" id="thetop">
 		<div id="burgermenu">
-		<nav role="navigation">	
 			<div id="menuToggle">
-				<input type="checkbox" />
+				<input type="checkbox">
 				<span></span>
 				<span></span>
 				<span></span>
 					<ul id="menu">
-						<div id="navflex">
-						<a href="index_v2.html"><li>Home</li></a> 
-						<a href="page2_v1.html"><li>Community Service</li></a>
-						<a href="page3_v1.html"><li>Outdoor Activities</li></a> 
-						<a href="page4_v1.html"><li>Wainuiomata Camp</li></a>
-						<a href="page5_v1.html"><li>Contact Us</li></a>
-						</div>
+						<li>
+							<ul id="navflex">
+								<li><a href="index_v3.html">Home</a></li>
+								<li><a href="page2_v2.html">Community Service</a></li>
+								<li><a href="page3_v2.html">Outdoor Activities</a></li>
+								<li><div class="activepage"><a href="page4_v2.html">Wainuiomata Camp</a></div></li>
+								<li><a href="page5_v2.html">Contact Us</a></li>
+							</ul>
+						</li>
 					</ul>		
 			</div><!--menutoggle div end -->
-		</nav>
 		</div><!--burger menu div end -->
-		<div id="logo"><img src="images/Asset 1.png" alt="Tawa College and Logo" id="tclogo"></div>
+		<div id="logo"><img src="images/Asset1.png" alt="Tawa College and Logo" id="tclogo"></div>
 	</div> <!--nav div end -->
-		<div class="header">
+		<div class="header" id="wainuiomatacamp">
 			<div class="headerimage"></div>
-			<div class="headertextbox">
+			<div class="headertextboxcamp">
 				<h1 id="headertext">Wainuiomata Camp</h1>
 			</div>
-		</div>
+		</div> 
         <div class="content">
 			<div class="centertextcontent">
 				<h1>What will happen?</h1>
@@ -56,8 +56,10 @@
 				
 			<div id="importantmeettime"><!-- Timetable Div for the timetable downloads -->
 				<div><h1 class="importanttextheader">Important!</h1></div>
-				<div><p class="importanttextcamp">Meeting Time and Location: <br>
-The front of the school hall - look for your form class when you arrive. <br>Form classes will be grouped together around the perimeter of the car park here. <br> You need to be at school for 8.30am.</p></div>
+				<div>
+					<h1 class="importantheadertextcamp">Meeting time and location:</h1>
+					<p class="importanttextcamp"> The front of the school hall - look for your form class when you arrive. <br>Form classes will be grouped together around the perimeter of the car park here. <br> You need to be at school for 8.30am.</p>
+				</div>
 				<img src="images/clockicon.png" alt="Image of a clock" id="clockimg">
 			</div>
 
@@ -65,7 +67,7 @@ The front of the school hall - look for your form class when you arrive. <br>For
 				<h1>Camp day 1</h1>
 			</div>
 			
-			<div class="imagetrim"><img src="images/404Notcreated.jpg" alt="Activity Image" id="activityimage1"></div>		
+			<div class="imagetrim"><img src="images/wainuiomatocamp1.jpg" alt="an image of people by a lake with kayaks" class="activityimage"></div>		
 			
 
 				<div class="textcontent">
@@ -91,7 +93,7 @@ The front of the school hall - look for your form class when you arrive. <br>For
 					<h1>Camp day 2</h1>
 				</div>
 
-				<div class="imagetrim"><img src="images/404Notcreated.jpg" alt="Activity Image" id="activityimage1"></div>				
+				<div class="imagetrim"><img src="images/wainuiomatocamp2.jpg" alt="an image of the walk that students will go on" class="activityimage"></div>				
 			
 				<div class="textcontent">
 				<p>
@@ -142,10 +144,10 @@ If there are any problems during that time, please contact the school office.
 				</p>	
 				</div>
 			
-				<button onclick="topFunction()" id="myBtn" title="Go to top"><p>To Top</p></button><!--  back to top button -->
-				<script type="text/javascript" src="js/myscript_v2.js"></script>			
-	
-				<a href="#thetop"><button class="totopb"><p>Go back to the top</p></button></a>			
+				<button onclick="topFunction()" id="myBtn" title="Go to top">To Top</button><!--  back to top button -->
+				<script src="js/myscript_v3.js"></script>			
+			
+				<a class="totopb" href="#thetop">Go back to the top</a>	
 			
         </div> <!-- content div ending -->
     
@@ -164,4 +166,4 @@ If there are any problems during that time, please contact the school office.
     </div> <!-- grid contaner div end -->
 
 </Body>
-</html> 
+</html>
